@@ -1,2 +1,2 @@
 [config]
-project = FirstTestProject
+command = bash deploy.sh
