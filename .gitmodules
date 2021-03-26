@@ -1,0 +1,3 @@
+[submodule "PythonHttpTest"]
+	path = PythonHttpTest
+	url = https://github.com/petyrit/PythonHttpTest
