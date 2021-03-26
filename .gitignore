@@ -35,9 +35,15 @@ var/
 # dotenv
 .env
 
-# virtualenv
+# Python Environments
+.env
+.venv
+env/
 venv/
 ENV/
+env.bak/
+venv.bak/
+
 
 # Personal test dir
 /t/*
