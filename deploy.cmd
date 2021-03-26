@@ -1,3 +1,0 @@
-@echo off
-echo Deploying Functions ...
-xcopy "%DEPLOYMENT_SOURCE%\FirstTestProject" %DEPLOYMENT_TARGET% /Y /S
