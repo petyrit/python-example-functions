@@ -40,4 +40,4 @@ jobs:
         app-name: 'pecapythongittest'
         slot-name: 'production'
         package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d5c4490e41904907a12efefbfe6370bc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_18621ebc35cc48799e5be8386a5b8176 }}
