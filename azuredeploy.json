@@ -126,6 +126,10 @@
                             "name": "FUNCTIONS_EXTENSION_VERSION",
                             "value": "~3"
                         },
+			{
+			"name": "FUNCTIONS_WORKER_RUNTIME",
+                            "value": "python"
+			},
                         {
                             "name": "AzureWebJobsStorage",
                             "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listkeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-11-01').keys[0].value,';')]"
