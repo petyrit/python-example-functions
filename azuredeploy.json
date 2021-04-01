@@ -87,6 +87,7 @@
             "sku":{
                 "name": "[parameters('sku')]"
             },
+	    "kind": "linux",
             "properties": {
                 "workerSize": "[parameters('workerSize')]",
                 "numberOfWorkers": 1
