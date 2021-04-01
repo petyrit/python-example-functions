@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appName": {
-            "defaultValue": "[concat('funtionapp-', uniqueString(resourceGroup().id))]",
+            "defaultValue": "",
             "type": "String",
             "metadata": {
                 "description": "The name of the function app that you wish to create."
@@ -14,18 +14,6 @@
             "type": "String",
             "metadata": {
                 "description": "The pricing tier for the hosting plan."
-            }
-        },
-        "workerSize": {
-            "defaultValue": "0",
-            "allowedValues": [
-                "0",
-                "1",
-                "2"
-            ],
-            "type": "String",
-            "metadata": {
-                "description": "The instance size of the hosting plan (small, medium, or large)."
             }
         },
         "linuxFxVersion": {
